@@ -26,11 +26,12 @@ import {
 const INFO = {
   name: "Mir Asim Ali",
   role: "Machine Learning Engineer",
-  tagline: "Script identification • Vision • Practical ML",
+  tagline:
+    "AI • Machine Learning • Data Science • Computer Vision • Web & ML Systems",
   location: "Hyderabad, India",
   email: "mirasimali2003@gmail.com",
   phone: "+91 9849407125",
-  resumeUrl: "#", // replace with real URL when ready
+  resumeUrl: "/project/workspace/public/Asim_resume.pdf", // replace with real URL when ready
   github: "https://github.com/Shaik-Qhadeer",
 };
 
@@ -130,7 +131,7 @@ function Header() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Avatar className="h-9 w-9">
-            <AvatarFallback>MA</AvatarFallback>
+            <AvatarFallback></AvatarFallback>
           </Avatar>
           <span className="font-semibold">{INFO.name}</span>
           <Badge className="ml-2" variant="secondary">
@@ -176,10 +177,18 @@ function Hero() {
               {INFO.name}
             </span>
           </h1>
-          <p className="mt-4 text-lg text-neutral-600 dark:text-neutral-300">
-            {INFO.tagline}. I build practical ML systems — from data curation to
-            deployment — with a focus on Indic scripts and computer vision.
-          </p>
+          <div>
+            <p className="font-bold text-lg text-neutral-900 dark:text-white">
+              {INFO.tagline}
+            </p>
+            <p className="mt-2 text-base text-neutral-600 dark:text-neutral-300">
+              AI & Data Science enthusiast with experience in machine learning,
+              computer vision, and end-to-end data pipelines. I build practical
+              AI systems—from data curation to deployment—across ML, DL, and
+              data-driven applications.
+            </p>
+          </div>
+
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild>
               <a
@@ -202,6 +211,7 @@ function Hero() {
             <Button variant="outline" asChild>
               <a
                 href={INFO.resumeUrl}
+                download
                 className="inline-flex items-center gap-2"
               >
                 <Download className="h-4 w-4" />
@@ -223,15 +233,19 @@ function Hero() {
             <CardContent className="space-y-3">
               <Item
                 icon={<Star className="h-4 w-4" />}
-                text="Trained multi-script ResNet50 models for word-level classification across 7+ Indic languages."
+                text="Machine Learning Projects: Multi-script ResNet50 models, word-level classification, and hands-on experience with end-to-end ML pipelines (data curation → training → evaluation → deployment)."
               />
               <Item
                 icon={<Star className="h-4 w-4" />}
-                text="Built a disaster-relief web app with real-time messaging and resource search (Rescue-Bubble)."
+                text="Web App Development: Disaster-relief platform with real-time chat and resource borrowing"
               />
               <Item
                 icon={<Star className="h-4 w-4" />}
-                text="Hands-on with dataset design, augmentation, and evaluation (confusion matrices, CSV logs)."
+                text="Data & Deployment: Dataset curation, evaluation (confusion matrices, CSV logs), and deployment-ready pipelines."
+              />
+              <Item
+                icon={<Star className="h-4 w-4" />}
+                text="LLM & RAG Pipelines: Experience in training LLMs and building Retrieval-Augmented Generation pipelines."
               />
             </CardContent>
           </Card>
