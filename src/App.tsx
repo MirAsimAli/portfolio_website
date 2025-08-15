@@ -79,21 +79,43 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   {
-    org: "IIIT Hyderabad (CVIT)",
-    role: "AIML Intern — Machine Learning Engineer",
-    period: "Jan 2025 – Present",
+    org: "CVIT Lab IIIT Hyderabad",
+    role: "Machine Learning Engineer",
+    period: "Nov 2024 – Present",
     bullets: [
-      "Built word-level script identification pipelines; curated datasets for Assamese, Bengali, Telugu, etc.",
-      "Trained and evaluated ResNet50 models; produced confusion matrices and CSV logs for analysis.",
-      "Prototyped an API wrapper and streamlined test scripts for multi-language models.",
+      "Trained 13 bilingual and 12 multilingual script separation models for Indic printed documents using ResNet50.",
+      "Developed equivalent bilingual and multilingual script separation models for handwritten documents using ResNet18.",
+      "Evaluated all models with confusion matrices and detailed CSV logs for performance analysis.",
+      "Integrated trained models into the IIIT iLock site via an API for seamless deployment.",
     ],
   },
   {
-    org: "Google Research (Student Researcher — application)",
-    role: "Academic Projects / Applications",
-    period: "2024 – 2025",
+    org: "iHub-Data IIIT Hyderabad",
+    role: "AI/ML Project intern",
+    period: "jan 2024 – july 2024",
     bullets: [
-      "Prepared targeted proposals in computer vision and multilingual OCR.",
+      "Built and trained a custom YOLOv8 object detection model for owl identification and tracking in images and videos.",
+      "Integrated and deployed the ChatGPT API locally, enabling offline conversational AI experimentation.",
+      "Fine-tuned and evaluated pre-trained language models using Hugging Face Transformers.",
+      "Completed weekly hands-on assignments covering deep learning, probabilistic ML, and neural network training; gained practical experience with Colab, PyTorch, TensorFlow, and modern ML workflows.",
+    ],
+  },
+  {
+    role: "Self-Learning & Independent Projects",
+    bullets: [
+      "Explored and implemented LLM fine-tuning projects.",
+      "Worked on web application development projects.",
+      "Developed Retrieval-Augmented Generation (RAG) pipelines.",
+      "Gained hands-on experience with modern AI and deployment workflows.",
+    ],
+  },
+  {
+    role: "Hackathon Participations",
+    bullets: [
+      "Participated in 10+ hackathons with my team.",
+      "Built innovative prototypes under tight time constraints.",
+      "Developed Retrieval-Augmented Generation (RAG) pipelines.",
+      "Explored diverse domains, ranging from AI to web development.",
     ],
   },
 ];
