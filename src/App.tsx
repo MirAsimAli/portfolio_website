@@ -47,33 +47,123 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: "Rescue-Bubble — Disaster Relief Platform",
-    desc: "Web app to connect citizens with agencies; real-time chat, resource borrowing, and Redux-based state management (MongoDB for messages).",
-    stack: ["React", "Redux", "MongoDB", "Node"],
+    title: "FMML-project-and-labs",
+    desc: "This repository contains my work for the Foundations of Modern Machine Learning (FMML) course, including hands-on lab exercises, mini-projects, and implementations of key ML concepts.",
+    stack: [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn",
+      "TensorFlow",
+      "Keras",
+      "Flask",
+      "OpenCV",
+      "NLTK",
+      "Jupyter Notebook",
+      "Google Colab",
+      "Git",
+      "GitHub",
+      "VS Code",
+    ],
     links: [
       {
         label: "GitHub",
-        href: "https://github.com/Shaik-Qhadeer/Rescue-Bubble",
+        href: "https://github.com/MirAsimAli/FMML-project-and-labs.git",
       },
     ],
   },
   {
-    title: "Script Separation — Word-level Script Classifier",
-    desc: "ResNet50-based classifier for 7+ Indic scripts (Assamese, Bengali, Kannada, Punjabi, Tamil, Telugu, Urdu). Includes evaluation, confusion matrices, and API-ready test pipeline.",
-    stack: ["PyTorch", "OpenCV", "Python"],
-    links: [{ label: "Repo (planned)", href: "#" }],
+    title: "Rescue-Bubble — Disaster Relief Platform (Major-Project)",
+    desc: "Developed ResQ-Bubble, a real-time disaster management web application integrating geolocation mapping, resource coordination, and live communication features, leveraging React, Redux, Node.js, and MongoDB.",
+    stack: [
+      "React",
+      "Redux",
+      "MongoDB",
+      "Node.js",
+      "Express",
+      "Tailwind CSS",
+      "JSON",
+      "Socket.io",
+      "GitHub",
+    ],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/MirAsimAli/Major_Project.git",
+      },
+    ],
   },
   {
-    title: "Sign Language Recognizer (Prototype)",
-    desc: "Gesture recognition beyond Yes/No/Hello; exploring OpenPose for robust hand keypoints and model inference pipeline.",
-    stack: ["OpenPose", "Python", "CV"],
-    links: [],
+    title: "Indic Script Separation Models (Printed Document)",
+    desc: "Developed 13 bilingual and 12 multilingual machine learning models for word-level script separation in Indic printed documents as part of an OCR pipeline for Indic languages. Models were trained using ResNet architectures, evaluated through the ML pipeline stages (data curation, preprocessing, training, validation, testing, and deployment), and integrated into the IIIT Hyderabad iLock site for real-world usage.",
+    stack: [
+      "Python",
+      "PyTorch",
+      "OpenCV",
+      "NumPy",
+      "Pandas",
+      "ResNet50",
+      "scikit-learn",
+      "Matplotlib",
+      "CSV",
+      "API Integration",
+      "Git",
+      "GitHub",
+      "VS Code",
+    ],
+    links: [
+      {
+        label: "GitHub",
+        href: "#",
+      },
+    ],
   },
   {
-    title: "English–Urdu Script Detector",
-    desc: "Word-image classifier with custom dataset curation and training script (train_english_urdu.py), achieving solid accuracy on mixed corpora.",
-    stack: ["PyTorch", "ResNet50"],
-    links: [],
+    title: "Indic Script Separation Models (HandWritten Document)",
+    desc: "Developed 13 bilingual and 12 multilingual machine learning models for word-level script separation in Indic handwritten documents as part of an OCR pipeline for Indic languages. Models were trained using ResNet architectures, evaluated through the ML pipeline stages (data curation, preprocessing, training, validation, testing, and deployment), and integrated into the IIIT Hyderabad iLock site for real-world usage.",
+    stack: [
+      "Python",
+      "PyTorch",
+      "OpenCV",
+      "NumPy",
+      "Pandas",
+      "ResNet18",
+      "scikit-learn",
+      "Matplotlib",
+      "CSV",
+      "API Integration",
+      "Git",
+      "GitHub",
+      "VS Code",
+    ],
+    links: [
+      {
+        label: "GitHub",
+        href: "#",
+      },
+    ],
+  },
+
+  {
+    title: "Emotion-Aware-Keyword-Extraction-Model",
+    desc: "A multi-task NLP system that detects emotions from text and extracts key terms contributing to those emotions, enabling explainable sentiment analysis for applications in mental health monitoring, social media analysis, and conversational AI.",
+    stack: [
+      "Python",
+      "PyTorch",
+      "Transformers (Hugging Face)",
+      "Pandas",
+      "scikit-learn",
+      "Hugging Face Datasets",
+      "reddit",
+    ],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/MirAsimAli/Emotion-Aware-Keyword-Extraction-Model.git",
+      },
+    ],
   },
 ];
 
@@ -122,10 +212,31 @@ const EXPERIENCE = [
 
 const EDUCATION = [
   {
-    school: "ISL College of Engineering & Technology",
+    school: "Osmania University (Affiliation)",
     degree: "B.E. — Computer Science",
     period: "2021 – 2025",
-    bullets: ["Final-year project work in ML + Vision."],
+    bullets: [
+      "Completed coursework in algorithms, data structures, databases, and machine learning fundamentals.",
+      "Worked on academic projects involving software development and data analysis.",
+    ],
+  },
+  {
+    school:
+      "International Institute of Information Technology Hyderabad (IIITH)",
+    degree:
+      "3-Month Training Program — Artificial Intelligence & Machine Learning",
+    period: "2024",
+    bullets: [
+      "Completed an intensive program covering Machine Learning foundations, neural networks, and practical AI workflows.",
+      "Received mentorship from Prof. CK Raju, with support from iHub-Data and dedicated program coordinators.",
+    ],
+  },
+
+  {
+    school: "Sri Chaitanya College of Education",
+    degree: "B.E. — Computer Science",
+    period: "2019 – 2021",
+    bullets: ["Grade-A"],
   },
 ];
 
