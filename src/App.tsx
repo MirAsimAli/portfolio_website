@@ -31,7 +31,7 @@ const INFO = {
   location: "Hyderabad, India",
   email: "mirasimali2003@gmail.com",
   phone: "+91 9849407125",
-  resumeUrl: "/project/workspace/public/Asim_resume.pdf", // replace with real URL when ready
+  resumeUrl: "public/Asim_resume.pdf", // replace with real URL when ready
   github: "https://github.com/MirAsimAli",
 };
 
