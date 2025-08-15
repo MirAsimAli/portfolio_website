@@ -53,7 +53,7 @@ const PROJECTS = [
     links: [
       {
         label: "GitHub",
-        href: "https://github.com/Shaik-Qhadeer/Rescue-Bubble",
+        href: "https://github.com/MirAsimAli",
       },
     ],
   },
