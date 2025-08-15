@@ -32,7 +32,7 @@ const INFO = {
   email: "mirasimali2003@gmail.com",
   phone: "+91 9849407125",
   resumeUrl: "/project/workspace/public/Asim_resume.pdf", // replace with real URL when ready
-  github: "https://github.com/Shaik-Qhadeer",
+  github: "https://github.com/MirAsimAli",
 };
 
 const SKILLS = [
@@ -53,7 +53,7 @@ const PROJECTS = [
     links: [
       {
         label: "GitHub",
-        href: "https://github.com/MirAsimAli",
+        href: "https://github.com/Shaik-Qhadeer/Rescue-Bubble",
       },
     ],
   },
