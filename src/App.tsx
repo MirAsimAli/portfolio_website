@@ -25,7 +25,7 @@ import {
 // --- Data ---
 const INFO = {
   name: "Mir Asim Ali",
-  role: "Machine Learning Engineer",
+  role: "AI & Machine Learning | Data Science | Software Engineering | Open to Relevant Roles",
   tagline:
     "AI • Machine Learning • Data Science • Computer Vision • Web & ML Systems",
   location: "Hyderabad, India",
@@ -239,10 +239,96 @@ const EDUCATION = [
     bullets: ["Grade-A"],
   },
 ];
-
 const CERTS = [
-  { name: "Information Retrieval Systems (Exam Prep)", year: 2025 },
-  { name: "Information Security (Exam Prep)", year: 2025 },
+  {
+    logo: "/logos/microsoft2.png", // small Microsoft logo in public folder
+    title: "Microsoft Transact SQL Badge",
+    issuer: "Microsoft",
+    date: "Issued Aug 2025",
+    skills: "Databases · Data Retrieval",
+    description:
+      "Completed Microsoft's Introduction to Transact-SQL course covering core SQL concepts like SELECT, JOIN, data types, and schemas. Gained hands-on experience with query building and relational database fundamentals.",
+    link: "https://drive.google.com/file/d/1MG3h9v_XvninMAXA7B9Xus62jlTivqN9/view?usp=sharing",
+  },
+  {
+    logo: "/logos/nvidia.png",
+    title: "NVIDIA AI: Basics to GenAI Practice Certification",
+    issuer: "NVIDIA",
+    date: "Issued Aug 2025",
+    skills: "Machine Learning · Generative AI · AI",
+    description:
+      "Completed NVIDIA's ‘AI for All: From Basics to GenAI Practice’ course covering fundamentals of AI, deep learning, and Generative AI. Scored 100% on all assessments. Gained hands-on understanding of LLMs, ethical AI practices, and real-world applications across industries.",
+    link: "https://drive.google.com/file/d/1aap4k4wu2RhMWarb5De1Oi1jKCnR1JGe/view?usp=sharing",
+  },
+  {
+    logo: "/logos/google.png",
+    title: "Google AI-ML virtual internship",
+    issuer: "Google",
+    date: "Issued Mar 2025",
+    skills: "Machine Learning · AI · Python · TensorFlow · Data Analysis · Model Deployment · Neural Networks",
+    description: "Gained hands-on experience in designing, training, and evaluating machine learning models using Python and TensorFlow. Learned key AI concepts including neural networks, model deployment, and data-driven problem solving through practical assignments and projects. ",
+    link: "https://drive.google.com/file/d/1hbxbzkow26JhwqUAq7W-mrHdC_hr693w/view?usp=sharing",
+  },
+
+  {
+    logo: "/logos/eduskills.png",
+    title: "Python Full Stack Developer Virtual Internship Completion",
+    issuer: "EduSkills Foundation®",
+    date: "Issued Dec 2024",
+    skills: "Python · Flask  · HTML/CSS · JavaScript · REST APIs · Database Management · Frontend & Backend Development",
+    description: " experience in building end-to-end web applications using Python, Flask. Learned frontend development with HTML, CSS, and JavaScript, and backend integration including REST APIs and database management. Developed practical projects showcasing full stack development skills.",
+    link: "https://drive.google.com/file/d/1lqX40xul8n8v93IXL2MGouuKL_ziDkWK/view?usp=sharing",
+    size: "h-22 w-20",
+  },
+  {
+    logo: "/logos/ihub.jpg",
+    title: "Certificate Of Proficiency IIIT Hyderabad AIML training program",
+    issuer: "iHub-Data, IIIT Hyderabad",
+    date: "Issued Feb 2024",
+    skills: "Artificial Intelligence · Machine Learning · Python · PyTorch · Data Analysis · Computer Vision . Algorithms . Loss functions",
+    description:
+      "3 month intensive training program on Artificial Intelligence and Machine Learning at IIIT Hyderabad. Gained hands-on experience in Python, PyTorch, deep learning, computer vision, and data analysis through practical projects and assignments. Developed end-to-end ML pipelines and foundational AI problem-solving skills.",
+    link: "https://drive.google.com/file/d/1KxQGRdwtQD5l_muajFqgyHQFscG9z6U6/view?usp=sharing",
+  },
+
+  {
+    logo: "/logos/aws.jpg",
+    title: "AWS Academy Data Analytics",
+    issuer: "AWS Academy",
+    date: "Issued Jan 2023",
+    skills: "Data Analytics · AWS Cloud · Data Visualization · ETL · Reporting",
+    description: "Completed AWS Academy Data Analytics course, gaining hands-on experience with data collection, processing, visualization, and analysis using AWS tools. Learned to design end-to-end analytics solutions and interpret data-driven insights effectively.",
+    link: "https://drive.google.com/file/d/1FM-JWb_sj-3lqyhGFjjH3DEITFjUCzLV/view?usp=sharing",
+  },
+
+  {
+    logo: "/logos/nptel.png",
+    title: "Edge Computing course completion",
+    issuer: "NPTEL",
+    date: "Issued Mar 2025",
+    skills: "",
+    description:
+      "Completed NPTEL's Edge Computing course covering edge architecture, IoT integration, and distributed computing. Achieved an Elite Silver badge for scoring above 60% in assignments and the proctored exam, demonstrating proficiency in real-time computing solutions at the network edge.",
+    link: "https://drive.google.com/file/d/1sY3eaft3B6j50C_Vp6h_4eAquhCQDNza/view?usp=sharing",
+  },
+  {
+    logo: "/logos/zscaler.png",
+    title: "Zero Trust Certified Associate (ZTCA)",
+    issuer: "Zscaler",
+    date: "Issued Mar 2024 · Expires Mar 2027",
+    skills: "",
+    description: "Earned the Zscaler Zero Trust Certified Associate (ZTCA) credential, demonstrating proficiency in implementing Zero Trust principles using Zscaler's platform. The certification encompasses identity verification, adaptive access control, and policy enforcement within the Zero Trust framework. Achieved a passing score of 80% on the 75-question online exam",
+    link: "https://verify.skilljar.com/c/zym29ffccjbv",
+  },
+  {
+    logo: "/logos/google.png",
+    title: "The Fundamentals of Digital Marketing",
+    issuer: "Google",
+    date: "Issued Jan 2023",
+    skills: "Marketing · Analytical Skills",
+    description: "Completed Google's Fundamentals of Digital Marketing course, covering essential topics like SEO, SEM, social media marketing, and email marketing. Gained practical skills through 26 modules, including real-world examples and interactive assessments.",
+    link: "https://drive.google.com/file/d/1kdpP4FTTcG9o2-2URTx3w1kfc3DXCJg6/view?usp=sharing",
+  },
 ];
 
 // --- Utils ---
@@ -529,6 +615,58 @@ function Education() {
   );
 }
 
+function Certifications() {
+  return (
+    <section id="certifications" className="max-w-6xl mx-auto px-4 py-12">
+      <h2 className="text-2xl md:text-3xl font-semibold flex items-center gap-2">
+        <Star className="h-6 w-6" /> Licenses & Certifications
+      </h2>
+      <div className="mt-6 grid md:grid-cols-2 gap-6">
+        {CERTS.map((c, i) => (
+          <Card key={i} className="rounded-2xl p-4">
+            <div className="flex items-start gap-4">
+              {c.logo && (
+                <img
+                  src={c.logo}
+                  alt={`${c.issuer} logo`}
+                  className={`object-contain ${c.size || "h-20 w-20"}`}
+                />
+              )}
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold">{c.title}</h3>
+                <p className="text-sm font-normal text-neutral-500 dark:text-neutral-400">
+                  {c.issuer} • {c.date}
+                </p>
+                {c.skills && (
+                  <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mt-1">
+                    Skills: {c.skills}
+                  </p>
+                )}
+                {c.description && (
+                  <p className="text-neutral-700 dark:text-neutral-300 mt-2">
+                    {c.description}
+                  </p>
+                )}
+                {c.link && (
+                  <a
+                    href={c.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 underline mt-2 block"
+                  >
+                    View Certificate
+                  </a>
+                )}
+              </div>
+            </div>
+          </Card>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+
 function Footer() {
   return (
     <footer className="mt-16 border-t border-neutral-200 dark:border-neutral-800">
@@ -596,6 +734,7 @@ export default function Portfolio() {
         <Projects />
         <Skills />
         <Education />
+        <Certifications />
       </main>
       <Footer />
     </div>
