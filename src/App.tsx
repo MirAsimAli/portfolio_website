@@ -24,7 +24,7 @@ import {
 
 // --- Data ---
 const INFO = {
-  name: "Mir Asim Ali",
+  name: "Asim ",
   role: "AI & Machine Learning | Data Science | Software Engineering | Open to Relevant Roles",
   tagline:
     "AI • Machine Learning • Data Science • Computer Vision • Web & ML Systems",
@@ -165,6 +165,27 @@ const PROJECTS = [
       },
     ],
   },
+  {
+    title: "Promptly",
+    desc: "A lightweight chatbot built with the Groq API ⚡, allowing seamless interaction with LLMs on a custom website.Promptly demonstrates how to integrate powerful language models into your own projects with minimal setup.",
+    stack: [
+      "Python",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Groq API",
+      "HTML",
+      "CSS",
+      "Git/GitHub",
+    ],
+
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/MirAsimAli/Promptly.git",
+      },
+    ],
+  },
 ];
 
 const EXPERIENCE = [
@@ -265,8 +286,10 @@ const CERTS = [
     title: "Google AI-ML virtual internship",
     issuer: "Google",
     date: "Issued Mar 2025",
-    skills: "Machine Learning · AI · Python · TensorFlow · Data Analysis · Model Deployment · Neural Networks",
-    description: "Gained hands-on experience in designing, training, and evaluating machine learning models using Python and TensorFlow. Learned key AI concepts including neural networks, model deployment, and data-driven problem solving through practical assignments and projects. ",
+    skills:
+      "Machine Learning · AI · Python · TensorFlow · Data Analysis · Model Deployment · Neural Networks",
+    description:
+      "Gained hands-on experience in designing, training, and evaluating machine learning models using Python and TensorFlow. Learned key AI concepts including neural networks, model deployment, and data-driven problem solving through practical assignments and projects. ",
     link: "https://drive.google.com/file/d/1hbxbzkow26JhwqUAq7W-mrHdC_hr693w/view?usp=sharing",
   },
 
@@ -275,8 +298,10 @@ const CERTS = [
     title: "Python Full Stack Developer Virtual Internship Completion",
     issuer: "EduSkills Foundation®",
     date: "Issued Dec 2024",
-    skills: "Python · Flask  · HTML/CSS · JavaScript · REST APIs · Database Management · Frontend & Backend Development",
-    description: " experience in building end-to-end web applications using Python, Flask. Learned frontend development with HTML, CSS, and JavaScript, and backend integration including REST APIs and database management. Developed practical projects showcasing full stack development skills.",
+    skills:
+      "Python · Flask  · HTML/CSS · JavaScript · REST APIs · Database Management · Frontend & Backend Development",
+    description:
+      " experience in building end-to-end web applications using Python, Flask. Learned frontend development with HTML, CSS, and JavaScript, and backend integration including REST APIs and database management. Developed practical projects showcasing full stack development skills.",
     link: "https://drive.google.com/file/d/1lqX40xul8n8v93IXL2MGouuKL_ziDkWK/view?usp=sharing",
     size: "h-22 w-20",
   },
@@ -285,7 +310,8 @@ const CERTS = [
     title: "Certificate Of Proficiency IIIT Hyderabad AIML training program",
     issuer: "iHub-Data, IIIT Hyderabad",
     date: "Issued Feb 2024",
-    skills: "Artificial Intelligence · Machine Learning · Python · PyTorch · Data Analysis · Computer Vision . Algorithms . Loss functions",
+    skills:
+      "Artificial Intelligence · Machine Learning · Python · PyTorch · Data Analysis · Computer Vision . Algorithms . Loss functions",
     description:
       "3 month intensive training program on Artificial Intelligence and Machine Learning at IIIT Hyderabad. Gained hands-on experience in Python, PyTorch, deep learning, computer vision, and data analysis through practical projects and assignments. Developed end-to-end ML pipelines and foundational AI problem-solving skills.",
     link: "https://drive.google.com/file/d/1KxQGRdwtQD5l_muajFqgyHQFscG9z6U6/view?usp=sharing",
@@ -297,7 +323,8 @@ const CERTS = [
     issuer: "AWS Academy",
     date: "Issued Jan 2023",
     skills: "Data Analytics · AWS Cloud · Data Visualization · ETL · Reporting",
-    description: "Completed AWS Academy Data Analytics course, gaining hands-on experience with data collection, processing, visualization, and analysis using AWS tools. Learned to design end-to-end analytics solutions and interpret data-driven insights effectively.",
+    description:
+      "Completed AWS Academy Data Analytics course, gaining hands-on experience with data collection, processing, visualization, and analysis using AWS tools. Learned to design end-to-end analytics solutions and interpret data-driven insights effectively.",
     link: "https://drive.google.com/file/d/1FM-JWb_sj-3lqyhGFjjH3DEITFjUCzLV/view?usp=sharing",
   },
 
@@ -317,7 +344,8 @@ const CERTS = [
     issuer: "Zscaler",
     date: "Issued Mar 2024 · Expires Mar 2027",
     skills: "",
-    description: "Earned the Zscaler Zero Trust Certified Associate (ZTCA) credential, demonstrating proficiency in implementing Zero Trust principles using Zscaler's platform. The certification encompasses identity verification, adaptive access control, and policy enforcement within the Zero Trust framework. Achieved a passing score of 80% on the 75-question online exam",
+    description:
+      "Earned the Zscaler Zero Trust Certified Associate (ZTCA) credential, demonstrating proficiency in implementing Zero Trust principles using Zscaler's platform. The certification encompasses identity verification, adaptive access control, and policy enforcement within the Zero Trust framework. Achieved a passing score of 80% on the 75-question online exam",
     link: "https://verify.skilljar.com/c/zym29ffccjbv",
   },
   {
@@ -326,7 +354,8 @@ const CERTS = [
     issuer: "Google",
     date: "Issued Jan 2023",
     skills: "Marketing · Analytical Skills",
-    description: "Completed Google's Fundamentals of Digital Marketing course, covering essential topics like SEO, SEM, social media marketing, and email marketing. Gained practical skills through 26 modules, including real-world examples and interactive assessments.",
+    description:
+      "Completed Google's Fundamentals of Digital Marketing course, covering essential topics like SEO, SEM, social media marketing, and email marketing. Gained practical skills through 26 modules, including real-world examples and interactive assessments.",
     link: "https://drive.google.com/file/d/1kdpP4FTTcG9o2-2URTx3w1kfc3DXCJg6/view?usp=sharing",
   },
 ];
@@ -443,7 +472,7 @@ function Hero() {
           </div>
         </div>
         <div>
-          <Card className="rounded-2xl shadow-md">
+          <Card className="rounded-2xl shadow-md border-[#DB4437]">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Sparkles className="h-5 w-5" /> Highlights
@@ -491,7 +520,7 @@ function Experience() {
       </h2>
       <div className="mt-6 grid md:grid-cols-2 gap-6">
         {EXPERIENCE.map((exp, i) => (
-          <Card key={i} className="rounded-2xl">
+          <Card key={i} className="rounded-2xl border-[#DB4437]">
             <CardHeader>
               <CardTitle className="flex flex-col">
                 <span className="text-lg">{exp.role}</span>
@@ -515,6 +544,8 @@ function Experience() {
 }
 
 function Projects() {
+  const colors = ["#4285F4", "#4285F4", "#4285F4", "#4285F4"]; // Blue, Red, Yellow, Green
+
   return (
     <section id="projects" className="max-w-6xl mx-auto px-4 py-12">
       <h2 className="text-2xl md:text-3xl font-semibold flex items-center gap-2">
@@ -522,7 +553,11 @@ function Projects() {
       </h2>
       <div className="mt-6 grid md:grid-cols-2 gap-6">
         {PROJECTS.map((p, i) => (
-          <Card key={i} className="rounded-2xl">
+          <Card
+            key={i}
+            className="rounded-2xl border-2"
+            style={{ borderColor: colors[i % colors.length] }}
+          >
             <CardHeader>
               <CardTitle>{p.title}</CardTitle>
             </CardHeader>
@@ -565,7 +600,7 @@ function Skills() {
       </h2>
       <div className="mt-6 grid md:grid-cols-2 gap-6">
         {SKILLS.map((s, i) => (
-          <Card key={i} className="rounded-2xl">
+          <Card key={i} className="rounded-2xl border-[#F4B400]">
             <CardHeader>
               <CardTitle className="flex items-center justify-between">
                 <span>{s.name}</span>
@@ -592,7 +627,7 @@ function Education() {
       </h2>
       <div className="mt-6 grid md:grid-cols-2 gap-6">
         {EDUCATION.map((e, i) => (
-          <Card key={i} className="rounded-2xl">
+          <Card key={i} className="rounded-2xl border-[#0F9D58]">
             <CardHeader>
               <CardTitle className="flex flex-col">
                 <span className="text-lg">{e.school}</span>
@@ -623,7 +658,7 @@ function Certifications() {
       </h2>
       <div className="mt-6 grid md:grid-cols-2 gap-6">
         {CERTS.map((c, i) => (
-          <Card key={i} className="rounded-2xl p-4">
+          <Card key={i} className="rounded-2xl p-4 border-[#4285F4]">
             <div className="flex items-start gap-4">
               {c.logo && (
                 <img
@@ -665,7 +700,6 @@ function Certifications() {
     </section>
   );
 }
-
 
 function Footer() {
   return (
