@@ -116,7 +116,7 @@ const PROJECTS = [
     links: [
       {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/MirAsimAli/Script_Separation-Printed-Document.git",
       },
     ],
   },
@@ -141,7 +141,7 @@ const PROJECTS = [
     links: [
       {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/MirAsimAli/Script-Seperation_Handwritten_documents.git",
       },
     ],
   },
