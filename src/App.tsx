@@ -20,6 +20,7 @@ import {
   Sparkles,
   Sun,
   Moon,
+  Linkedin,
 } from "lucide-react";
 
 // --- Data ---
@@ -33,6 +34,8 @@ const INFO = {
   phone: "+91 9849407125",
   resumeUrl: "/Asim_resume.pdf", // replace with real URL when ready
   github: "https://github.com/MirAsimAli",
+  Linkedin:
+    "https://www.linkedin.com/in/mir-asim-ali-b5977b228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzRFQNR8pTSe2yRc5bzS6nA%3D%3D",
 };
 
 const SKILLS = [
@@ -405,6 +408,17 @@ function Header() {
               <Github className="h-4 w-4" /> GitHub
             </a>
           </Button>
+          {/* LinkedIn Button */}
+          <Button asChild>
+            <a
+              href={INFO.Linkedin} // make sure INFO has linkedin: "https://linkedin.com/in/..."
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2"
+            >
+              <Linkedin className="h-4 w-4" /> LinkedIn
+            </a>
+          </Button>
         </div>
       </div>
     </header>
@@ -741,6 +755,15 @@ function Footer() {
           >
             <Github className="h-4 w-4" />
             GitHub
+          </a>
+          <a
+            href={INFO.Linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300 hover:underline"
+          >
+            <Linkedin className="h-4 w-4" />
+            Linked-in
           </a>
           <a
             href={INFO.resumeUrl}
