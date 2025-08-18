@@ -25,14 +25,14 @@ import {
 
 // --- Data ---
 const INFO = {
-  name: "Asim ",
+  name: "Mir Asim Ali",
   role: "AI & Machine Learning | Data Science | Software Engineering | Open to Relevant Roles",
   tagline:
     "AI • Machine Learning • Data Science • Computer Vision • Web & ML Systems",
   location: "Hyderabad, India",
   email: "mirasimali2003@gmail.com",
   phone: "+91 9849407125",
-  resumeUrl: "/Asim_resume.pdf", // replace with real URL when ready
+  resumeUrl: "/Asim-resume-aug2025.pdf", // replace with real URL when ready
   github: "https://github.com/MirAsimAli",
   Linkedin:
     "https://www.linkedin.com/in/mir-asim-ali-b5977b228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzRFQNR8pTSe2yRc5bzS6nA%3D%3D",
@@ -372,23 +372,30 @@ const fadeUp = {
 
 function Header() {
   const [dark, setDark] = React.useState(true);
+
   React.useEffect(() => {
     const root = document.documentElement;
     if (dark) root.classList.add("dark");
     else root.classList.remove("dark");
   }, [dark]);
+
   return (
     <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-neutral-900/60 border-b border-neutral-200 dark:border-neutral-800">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Avatar className="h-9 w-9">
-            <AvatarFallback></AvatarFallback>
-          </Avatar>
-          <span className="font-semibold">{INFO.name}</span>
-          <Badge className="ml-2" variant="secondary">
-            {INFO.role}
-          </Badge>
+          {/* Name + role stacked */}
+          <div className="flex flex-col">
+            <span className="font-semibold">{INFO.name}</span>
+            {/* Full role on desktop, short on mobile */}
+            <Badge className="mt-1 w-fit hidden sm:inline" variant="secondary">
+              {INFO.role}
+            </Badge>
+            <Badge className="mt-1 w-fit sm:hidden text-xs" variant="secondary">
+              AI/ML | DS | SWE
+            </Badge>
+          </div>
         </div>
+
         <div className="flex items-center gap-2">
           <Button
             variant="ghost"
@@ -396,8 +403,9 @@ function Header() {
             onClick={() => setDark(!dark)}
             aria-label="Toggle theme"
           >
-            {dark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+            {dark ? <Sun className="h-6 w-6 " /> : <Moon className="h-6 w-6" />}
           </Button>
+
           <Button asChild>
             <a
               href={INFO.github}
@@ -408,10 +416,10 @@ function Header() {
               <Github className="h-4 w-4" /> GitHub
             </a>
           </Button>
-          {/* LinkedIn Button */}
+
           <Button asChild>
             <a
-              href={INFO.Linkedin} // make sure INFO has linkedin: "https://linkedin.com/in/..."
+              href={INFO.Linkedin}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2"
