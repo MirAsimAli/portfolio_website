@@ -258,7 +258,7 @@ const EDUCATION = [
 
   {
     school: "Sri Chaitanya College of Education",
-    degree: "B.E. — Computer Science",
+    degree: "Intermediate Education",
     period: "2019 – 2021",
     bullets: ["Grade-A"],
   },
