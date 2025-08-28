@@ -45,6 +45,8 @@ const SKILLS = [
   { name: "Deep Learning", level: 80 },
   { name: "Data Engineering", level: 70 },
   { name: "Redux / React", level: 70 },
+  { name: "Web dev", level: 70 },
+  { name: "LLM & RAG pipeline", level: 80 },
   { name: "MongoDB", level: 60 },
 ];
 
@@ -186,6 +188,41 @@ const PROJECTS = [
       {
         label: "GitHub",
         href: "https://github.com/MirAsimAli/Promptly.git",
+      },
+    ],
+  },
+  {
+    title: "EduRAG",
+    desc: "A Retrieval-Augmented Generation (RAG) QA system built on NCERT Class 10 books, using ChromaDB for vector storage and Groq’s LLaMA-3 8B for context-aware question answering.",
+    stack: [
+      // Core
+      "Python",
+      "SentenceTransformers (MiniLM-L6-v2)",
+      "ChromaDB",
+      "Groq API (LLaMA 3 8B)",
+
+      // Data Processing
+      "Text Tokenization",
+      "Metadata Handling",
+
+      // Backend / API (optional for deployment)
+      "FastAPI",
+
+      // Frontend (future integration)
+      "Streamlit",
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+
+      // Tools & Deployment
+      "Git/GitHub",
+    ],
+
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/MirAsimAli/EduRAG.git",
       },
     ],
   },
