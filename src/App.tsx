@@ -241,6 +241,16 @@ const EXPERIENCE = [
     ],
   },
   {
+    org: "Friday AI",
+    role: "Machine Learning Engineer Intern",
+    period: "Aug 2025 – Present",
+    bullets: [
+      "Researching methods to extend large language model (LLM) context windows efficiently using attention optimization and retrieval-augmented techniques.",
+      "Exploring logarithmic scaling approaches to improve inference efficiency and reduce compute costs for long-context models.",
+      "Studying architectural trade-offs in memory-efficient fine-tuning for multimodal and emotion-aware AI applications.",
+    ],
+  },
+  {
     org: "iHub-Data IIIT Hyderabad",
     role: "AI/ML Project intern",
     period: "jan 2024 – july 2024",
