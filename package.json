@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
-  "homepage": "https://MirAsim.github.io/portfolio_website",
+  "homepage": "https://MirAsimAli.github.io/portfolio_website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
