@@ -32,7 +32,7 @@ const INFO = {
   location: "Hyderabad, India",
   email: "mirasimali2003@gmail.com",
   phone: "+91 9849407125",
-  resumeUrl: "/asim_resume_sept2025.pdf", // replace with real URL when ready
+  resumeUrl: "/resume_dec2025.pdf", // replace with real URL when ready
   github: "https://github.com/MirAsimAli",
   Linkedin:
     "https://www.linkedin.com/in/mir-asim-ali-b5977b228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzRFQNR8pTSe2yRc5bzS6nA%3D%3D",
