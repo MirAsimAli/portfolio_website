@@ -32,7 +32,7 @@ const INFO = {
   location: "Hyderabad, India",
   email: "mirasimali2003@gmail.com",
   phone: "+91 9849407125",
-  resumeUrl: "/resume_dec2025.pdf", // replace with real URL when ready
+  resumeUrl: "/best_candidate.pdf", // replace with real URL when ready
   github: "https://github.com/MirAsimAli",
   Linkedin:
     "https://www.linkedin.com/in/mir-asim-ali-b5977b228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzRFQNR8pTSe2yRc5bzS6nA%3D%3D",
@@ -223,6 +223,49 @@ const PROJECTS = [
       {
         label: "GitHub",
         href: "https://github.com/MirAsimAli/EduRAG.git",
+      },
+    ],
+  },
+  {
+    title: "Credit Card Fraud Detection",
+    desc: "An end-to-end machine learning project for detecting fraudulent credit card transactions, focusing on imbalanced classification, data analysis, and high-precision fraud detection using real-world financial data.",
+    stack: [
+      // Core
+      "Python",
+      "Scikit-learn",
+
+      // Data Processing & Analysis
+      "Pandas",
+      "NumPy",
+      "Data Preprocessing",
+      "Feature Scaling",
+
+      // Visualization
+      "Matplotlib",
+      "Seaborn",
+      "Exploratory Data Analysis (EDA)",
+
+      // Machine Learning
+      "Logistic Regression",
+      "Random Forest",
+      "Imbalanced Classification",
+      "Model Evaluation (Precision, Recall, F1-score)",
+
+      // Concepts
+      "Anomaly Detection",
+      "Fraud Detection Systems",
+
+      // Development
+      "Jupyter Notebook / Google Colab",
+
+      // Tools
+      "Git/GitHub",
+    ],
+
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/MirAsimAli/credit-card-fraud-detection-ml.git",
       },
     ],
   },
