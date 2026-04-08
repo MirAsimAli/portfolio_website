@@ -275,7 +275,7 @@ const EXPERIENCE = [
   {
     org: "CVIT Lab IIIT Hyderabad",
     role: "Machine Learning Engineer",
-    period: "Nov 2024 – Present",
+    period: "Nov 2024 – Dec 2025",
     bullets: [
       "Trained 13 bilingual and 12 multilingual script separation models for Indic printed documents using ResNet50.",
       "Developed equivalent bilingual and multilingual script separation models for handwritten documents using ResNet18.",
@@ -286,7 +286,7 @@ const EXPERIENCE = [
   {
     org: "Friday AI",
     role: "Machine Learning Engineer Intern",
-    period: "Aug 2025 – Present",
+    period: "Aug 2025 – Feb 2026",
     bullets: [
       "Researching methods to extend large language model (LLM) context windows efficiently using attention optimization and retrieval-augmented techniques.",
       "Exploring logarithmic scaling approaches to improve inference efficiency and reduce compute costs for long-context models.",
