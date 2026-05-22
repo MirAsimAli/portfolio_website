@@ -273,7 +273,7 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   {
-    org: "Open Knowledge Initiative IIIT Hyderabad",
+    org: "Open Knowledge Initiative(OKI) IIIT Hyderabad",
     role: "Summer Intern",
     period: "may 2026 – present",
     bullets: [
