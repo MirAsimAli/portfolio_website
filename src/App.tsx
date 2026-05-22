@@ -273,6 +273,17 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   {
+    org: "Open Knowledge Initiative IIIT Hyderabad",
+    role: "Summer Intern",
+    period: "may 2026 – present",
+    bullets: [
+      " Working on large-scale digitization and structured archival of Indian language public-domain literature within Wikimedia ecosystems.",
+      "Implementing OCR-driven text extraction and post-processing workflows using tools such as Tesseract and Google Vision API",
+      "linguistic validation, metadata normalization, and Wikisource/Wikidata integration.",
+      "Contributing to scalable knowledge representation and multilingual content accessibility, with a primary focus on Urdu language resources and digital preservation pipelines.",
+    ],
+  },
+  {
     org: "CVIT Lab IIIT Hyderabad",
     role: "Machine Learning Engineer",
     period: "Nov 2024 – Dec 2025",
@@ -304,17 +315,10 @@ const EXPERIENCE = [
       "Completed weekly hands-on assignments covering deep learning, probabilistic ML, and neural network training; gained practical experience with Colab, PyTorch, TensorFlow, and modern ML workflows.",
     ],
   },
-  {
-    role: "Self-Learning & Independent Projects",
-    bullets: [
-      "Explored and implemented LLM fine-tuning projects.",
-      "Worked on web application development projects.",
-      "Developed Retrieval-Augmented Generation (RAG) pipelines.",
-      "Gained hands-on experience with modern AI and deployment workflows.",
-    ],
-  },
+
   {
     role: "Hackathon Participations",
+    org: "Self paced Initial Learning",
     bullets: [
       "Participated in 10+ hackathons with my team.",
       "Built innovative prototypes under tight time constraints.",
