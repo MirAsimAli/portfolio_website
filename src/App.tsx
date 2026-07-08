@@ -26,7 +26,7 @@ import {
 // --- Data ---
 const INFO = {
   name: "Mir Asim Ali",
-  role: "AI & Machine Learning | Data Science | Software Engineering | Open to Relevant Roles",
+  role: "Research Associate at IIITH",
   tagline:
     "AI • Machine Learning • Data Science • Computer Vision • Web & ML Systems",
   location: "Hyderabad, India",
@@ -273,9 +273,21 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   {
+    org: " International Institute of Information Technology, Hyderabad (IIITH)",
+    role: "Research Associate",
+    period: "June 2026 – Present",
+    bullets: [
+      "Researching OCR post-correction methodologies for Urdu using transformer and LLM-based approaches.",
+      "Designing and evaluating context-aware models for robust correction of OCR-generated errors.",
+      "Experimenting with preprocessing, fine-tuning, and decoding strategies for improved correction performance.",
+      "Analyzing Urdu-specific linguistic and orthographic error patterns to develop effective correction techniques.",
+      "Benchmarking models through systematic experimentation and evaluation on large-scale Urdu corpora.",
+    ],
+  },
+  {
     org: "Open Knowledge Initiative(OKI) IIIT Hyderabad",
     role: "Summer Intern",
-    period: "may 2026 – present",
+    period: "may 2026 – June 2026",
     bullets: [
       " Working on large-scale digitization and structured archival of Indian language public-domain literature within Wikimedia ecosystems.",
       "Implementing OCR-driven text extraction and post-processing workflows using tools such as Tesseract and Google Vision API",
@@ -313,17 +325,6 @@ const EXPERIENCE = [
       "Integrated and deployed the ChatGPT API locally, enabling offline conversational AI experimentation.",
       "Fine-tuned and evaluated pre-trained language models using Hugging Face Transformers.",
       "Completed weekly hands-on assignments covering deep learning, probabilistic ML, and neural network training; gained practical experience with Colab, PyTorch, TensorFlow, and modern ML workflows.",
-    ],
-  },
-
-  {
-    role: "Hackathon Participations",
-    org: "Self paced Initial Learning",
-    bullets: [
-      "Participated in 10+ hackathons with my team.",
-      "Built innovative prototypes under tight time constraints.",
-      "Developed Retrieval-Augmented Generation (RAG) pipelines.",
-      "Explored diverse domains, ranging from AI to web development.",
     ],
   },
 ];
